@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="payment_bx">
+            <div class="content">
+                <!---- 1st input ------->
+                <div class="card_bx">
+                    <label for="">CARDHOLDER</label>
+                    <input type="text" placeholder="Enter Your Name ..." value="Prince Halvawala">
+                </div>
+
+                <!--- 2nd input ------>
+
+                <div class="card_bx">
+                    <label for="">CARD NUMBER</label>
+                    <input type="text" name="credit-number" id="credit-number" placeholder="xxxx - xxxx - xxxx - xxxx" value="1234 - 5678 - 9101 - 1213">
+                    <img src="images/master.png" alt="" id="master">
+                </div>
+
+                <!---- 3rd input ----->
+                <div class="exp_cvv">
+                    <div class="card_bx">
+                        <label for="">EXP DATE</label>
+                        <input type="tel" maxlength="5" value="02/25"> 
+                    </div>
+                    <div class="card_bx">
+                        <label for="">CVV</label>
+                        <input type="tel" maxlength="3" value="123">
+                    </div>
+                </div>
+                <!------------>
+            </div>
+            <!---- Button ------>
+            <div class="Price_btn">
+                <div class="price">
+                    <h6>Total</h6>
+                    <h3>$250 <sup>99</sup></h3>
+                </div>
+                <div class="btn">
+                    <h5>Purchase</h5>
+                </div>
+            </div>
+
+            <!------------>
+        </div>
+    <!----- Right Side Product Box From Here -------->    
+        <div class="product_bx">
+            <h5>You are Purchasing</h5>
+            <h2>Airpods</h2>
+            <img src="images/Airpods.png" alt="" id="poster">
+            <div class="cards">
+                <!--- 1st image ----->
+                <div class="card_img">
+                    <img src="images/air1.png" alt="">
+                    <h6 class="dot"></h6>
+                </div>
+                <!---- 2nd image ----->
+                <div class="card_img">
+                    <img src="images/Airpods.png" alt="">
+                    <h6 class="dot"></h6>
+                </div>
+                <!---- 3rd image ----->
+                <div class="card_img">
+                    <img src="images/air3.png" alt="">
+                    <h6 class="dot"></h6>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
